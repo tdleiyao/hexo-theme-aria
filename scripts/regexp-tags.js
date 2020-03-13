@@ -41,7 +41,7 @@ hexo.extend.filter.register("after_render:html", (str, data) => {
   // but hljs uses `hljs` class.
   .replace(/<figure class="highlight/g, "<figure class=\"hljs highlight")
   // Bootstrap toc scrollspy needs such classes.
-  .replace(/<ol class="toc/g, "<ol class=\"list-group toc")
+  .replace(/<ol class="toc/g, "<ul class=\"list-group toc")
   .replace(/<a class="toc-link/g, "<a class=\"list-group-item toc-link");
   // Removed: Cannot fit various conditions, use browser DOM operation instead.
   // Add class for image link.

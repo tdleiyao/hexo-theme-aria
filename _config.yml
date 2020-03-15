@@ -76,7 +76,7 @@ sidebar: left
 # Animation in Home, Archive, Category and Tag.
 animate: true
 
-busuanzi: false
+busuanzi: true
 
 # If you want ARIA generate excerpt, set it to the length you want. If you don't, leave it blank.
 # Recomend to place `<!--more-->` to where you want to stop excerpt in content instead of use this option.

@@ -78,18 +78,13 @@ animate: true
 
 busuanzi: true
 
-#百度统计(请自行更换统计代码)
-baidutj:
-    <script>
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?6805ddcf284881cdcbdd2dd6f590aca8";
-      var s = document.getElementsByTagName("script")[0]; 
-      s.parentNode.insertBefore(hm, s);
-    })();
-    </script>
+#百度推送
+baiduts: true
 
+#百度统计
+##因包含密钥请自行到 $HexoHOME/_config.yml或该文件添加下列示例代码
+#baidutj_url: https://hm.baidu.com/hm.js?680xxxxxxx
+baidutj: true
 
 # If you want ARIA generate excerpt, set it to the length you want. If you don't, leave it blank.
 # Recomend to place `<!--more-->` to where you want to stop excerpt in content instead of use this option.

@@ -1,0 +1,14 @@
+{% block footer %}
+{% if theme.baidutj %}
+<!-- baidutj -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "{{ config.baidutj_url }}";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+{% endif %}
+{% endblock %}

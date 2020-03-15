@@ -78,6 +78,19 @@ animate: true
 
 busuanzi: true
 
+#百度统计(请自行更换统计代码)
+baidutj:
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?6805ddcf284881cdcbdd2dd6f590aca8";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+
+
 # If you want ARIA generate excerpt, set it to the length you want. If you don't, leave it blank.
 # Recomend to place `<!--more-->` to where you want to stop excerpt in content instead of use this option.
 # Example: `auto_excerpt: 200`, use first 200 chars in post content as excerpt.
